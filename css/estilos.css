@@ -1,0 +1,214 @@
+body{
+  font-family: 'Dancing Script';
+  background-color  : #02010a;
+}
+
+#cabecera{
+  background-color: #5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  text-shadow: 2px 2px 5px #02010a;
+
+}
+
+.h1{
+  text-shadow: 2px , #02010a;
+}
+
+.menu{
+  order: 2;
+  text-color: white;
+}
+
+a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+
+#imagenCentral{
+  background-color: #82c3a6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#torre{
+  margin:10px auto;
+	display:block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 44%;
+  box-shadow: 2px 2px 5px #02010a;
+
+}
+
+.imagenSecundaria {
+display: flex;
+flex-direction: row;
+background-color: #d5c75f;
+border: 1px;
+justify-content: space-around;
+align-items: center;
+}
+
+#vaticano{
+  margin: 50px;
+  width: 35%;
+  order: 1;
+box-shadow: 2px 2px 5px #02010a;
+}
+#vaticano:hover{
+  transform: rotate(10deg);
+  transition-duration: 1.5s;
+  box-shadow: 2px 2px 5px #82c3a6;
+  border: 2px;
+}
+#papa{
+  margin: 50px;
+  width: 30%;
+  order: 2;
+  box-shadow: 2px 2px 5px #02010a;
+}
+
+#papa:hover{
+  transform: translate(5px,-20px);
+  transition-duration: 1.5s;
+  box-shadow: 2px 2px 5px #82c3a6;
+  border: 2px;
+}
+
+
+
+.footer{
+  background-color: #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer1{
+  order: 1;
+}
+
+.footer2{
+order: 2;
+}
+
+.footer3{
+order: 3;
+}
+
+.footer4{
+order: 4;
+}
+
+.parrafoFooter{
+  font-size: 25px;
+}
+
+.retratosImagenes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d5c75f;
+}
+
+#papa1{
+  order: 1;
+  width: 30%;
+  margin: 10px;
+  filter: blur(10px);
+}
+
+#papa2{
+  order: 2;
+  width: 30%;
+  margin: 10px;
+  filter: grayscale(100%);
+}
+
+#papa3{
+  order: 3;
+  width: 30%;
+  margin: 10px;
+  filter: sepia(90%);
+}
+
+#papa4{
+  order: 4;
+  width: 30%;
+  margin: 10px;
+  filter: grayscale(100%);
+}
+
+#papa5{
+  order: 5;
+  width: 30%;
+  margin: 10px;
+}
+
+#papa6{
+  order: 6;
+  width: 30%;
+  margin: 10px;
+  filter: grayscale(100%);
+}
+
+
+.paisajesImagenes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d5c75f;
+}
+
+#vaticano1{
+  order: 1;
+  width: 30%;
+  margin: 10px;
+  filter: blur(10px);
+}
+
+#vaticano2{
+  order: 2;
+  width: 30%;
+  margin: 10px;
+  filter: grayscale(100%);
+}
+
+#vaticano3{
+  order: 3;
+  width: 30%;
+  margin: 10px;
+  filter: sepia(90%);
+}
+
+#vaticano4{
+  order: 4;
+  width: 30%;
+  margin: 10px;
+  filter: grayscale(100%);
+}
+
+#vaticano5{
+  order: 5;
+  width: 30%;
+  margin: 10px;
+}
+
+#vaticano6{
+  order: 6;
+  width: 30%;
+  margin: 10px;
+  filter: grayscale(100%);
+}
