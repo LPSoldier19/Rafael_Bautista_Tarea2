@@ -8,19 +8,22 @@ body{
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding: 5px;
+  padding-bottom: 7px;
   text-shadow: 2px 2px 5px #02010a;
-
 }
 
-.h1{
+.p1{
+  font-size: 40px;
   text-shadow: 2px , #02010a;
+
 }
 
 .menu{
-  order: 2;
   text-color: white;
+
 }
+
+
 
 a{
 color: white;
@@ -33,6 +36,7 @@ font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 #torre{
@@ -40,7 +44,8 @@ font-size: 20px;
 	display:block;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 44%;
+  width: 50%;
+  height: 50%;
   box-shadow: 2px 2px 5px #02010a;
 
 }
@@ -48,6 +53,7 @@ font-size: 20px;
 .imagenSecundaria {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 background-color: #d5c75f;
 border: 1px;
 justify-content: space-around;
@@ -55,8 +61,9 @@ align-items: center;
 }
 
 #vaticano{
-  margin: 50px;
+  margin: 10px;
   width: 35%;
+  height: 35%;
   order: 1;
 box-shadow: 2px 2px 5px #02010a;
 }
@@ -67,8 +74,9 @@ box-shadow: 2px 2px 5px #02010a;
   border: 2px;
 }
 #papa{
-  margin: 50px;
-  width: 30%;
+  margin: 10px;
+  width: 35%;
+  height: 35%;
   order: 2;
   box-shadow: 2px 2px 5px #02010a;
 }
@@ -88,8 +96,8 @@ box-shadow: 2px 2px 5px #02010a;
   border-bottom-right-radius: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
 }
 
 .footer1{
@@ -211,4 +219,123 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+}
+
+@media (max-width:780px){
+  #cabecera{
+    width: 100%;
+  }
+
+  .p1{
+    padding-top: 10px;
+    text-align: center;
+    font-size:75%;
+  }
+
+  .menu{
+    text-align: center;
+  }
+
+  a{
+    font-size: 5%;
+  }
+
+  .footer{
+    width: 100%;
+  }
+
+  #imagenCentral{
+    width: 100%;
+  }
+
+  .imagenSecundaria{
+    width: 100%;
+  }
+
+  #papa{
+    width: 70%;
+  }
+
+  #vaticano{
+    width: 70%;
+  }
+
+
+  #papa1{
+    width: 70%;
+  }
+
+  #papa2{
+    width: 70%;
+  }
+
+  #papa3{
+    width: 70%;
+  }
+
+  #papa4{
+    width: 70%;
+  }
+
+  #papa5{
+    width: 70%;
+  }
+
+  #papa6{
+    width: 70%;
+  }
+
+  #vaticano1{
+    width: 70%;
+  }
+
+  #vaticano2{
+    width: 70%;
+  }
+
+  #vaticano3{
+    width: 70%;
+  }
+
+  #vaticano4{
+    width: 70%;
+  }
+
+  #vaticano5{
+    width: 70%;
+  }
+
+  #vaticano6{
+    width: 70%;
+  }
+
+  .footer1{
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .footer2{
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .footer3{
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .footer4{
+    text-align: center;
+    font-size: 50%;
+  }
+
+
+  .parrafoFooter{
+    font-size: 50%;
+  }
+
+}
+
+@media (max-width: 1080px){
+
 }
