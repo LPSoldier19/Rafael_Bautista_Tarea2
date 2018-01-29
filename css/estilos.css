@@ -1,34 +1,38 @@
 body{
   font-family: 'Dancing Script';
   background-color  : #02010a;
+
 }
 
 #cabecera{
   background-color: #5b7989;
   color: white;
+  padding-top: 2px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding-bottom: 7px;
   text-shadow: 2px 2px 5px #02010a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .p1{
+  margin-right:75%;
   font-size: 40px;
   text-shadow: 2px , #02010a;
-
 }
 
 .menu{
-  text-color: white;
-
 }
-
-
 
 a{
 color: white;
 text-decoration: none;
-font-size: 20px;
+font-size: 25px;
+float: right;
+margin-right: 10px;
 }
 
 #imagenCentral{
@@ -134,6 +138,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: blur(10px);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #papa2{
@@ -141,6 +146,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #papa3{
@@ -148,6 +154,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: sepia(90%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #papa4{
@@ -155,12 +162,14 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #papa5{
   order: 5;
   width: 30%;
   margin: 10px;
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #papa6{
@@ -168,6 +177,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 
@@ -185,6 +195,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: blur(10px);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #vaticano2{
@@ -192,6 +203,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #vaticano3{
@@ -199,6 +211,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: sepia(90%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #vaticano4{
@@ -206,12 +219,14 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #vaticano5{
   order: 5;
   width: 30%;
   margin: 10px;
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 #vaticano6{
@@ -219,6 +234,7 @@ order: 4;
   width: 30%;
   margin: 10px;
   filter: grayscale(100%);
+  box-shadow: 2px 2px 5px #02010a;
 }
 
 @media (max-width:780px){
@@ -227,17 +243,17 @@ order: 4;
   }
 
   .p1{
-    padding-top: 10px;
     text-align: center;
-    font-size:75%;
+    font-size:100%;
+    margin-left: 70%;
   }
 
   .menu{
-    text-align: center;
+
   }
 
   a{
-    font-size: 5%;
+    font-size: 5px;
   }
 
   .footer{
@@ -336,6 +352,21 @@ order: 4;
 
 }
 
-@media (max-width: 1080px){
+.contenido{
+  align-items: center;
+  animation: miAnimacion 2s;
+}
 
+@-webkit-keyframes miAnimacion{
+  0%{
+    margin-top: 150%;
+  }
+
+  60%{
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
+  }
 }
